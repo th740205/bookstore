@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ridibooks</title>
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
 
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
 
 </head>
+
 <body>
     <header>
         <div class="container">
             <div class="header_top">
-                <div class="logo"></div>
+                <div class="logo">
+                    <img src="./img/logo.svg" alt="" width="100%">
+                </div>
 
                 <div class="h_right">
-                    <div class="search"></div>
-                    <div class="mypage"></div>
+                    <div class="search">
+                        <svg width="1.5em" height="1.5em" viewBox="0 0 20 20" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg" class="fig-1hsho1o">
+                            <path fill-rule="evenodd"
+                                d="M13.28 8.18a5.1 5.1 0 11-10.2 0 5.1 5.1 0 0110.2 0zm-1.031 5.069a6.5 6.5 0 11.991-.989l4.695 4.695a.7.7 0 11-.99.99l-4.696-4.696z">
+                            </path>
+                        </svg>
+                        <input type="text" maxlength="64" value="" style="opacity: 1;">
+                    </div>
+                    <div class="mypage">
+                        <nav>
+                            <ul>
+                                <li><a href="#"></a>회원가입</li>
+                                <li><a href="#"></a>로그인</li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
 
             </div>
@@ -33,10 +54,35 @@
                         <li><a href="#"></a>셀렉트</li>
                     </ul>
                 </nav>
-                <div class="category"></div>
+                <div class="category">
+                    <ul>
+                        <li><a href="#"></a><i class="fa-solid fa-bars"></i> 전체카테고리</li>
+                        <li><a href="#"></a><svg width="1em" height="1em" viewBox="0 0 21 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" aria-label="리디 캐시 충전" class="fig-jdb16z">
+                                <circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.4"></circle>
+                                <path
+                                    d="M9.75 12.1a2.28 2.28 0 012.292-2.267c.626 0 1.192.248 1.605.65a.65.65 0 10.906-.933 3.595 3.595 0 00-2.511-1.017c-1.979 0-3.592 1.592-3.592 3.567s1.614 3.567 3.592 3.567c.976 0 1.862-.387 2.51-1.015a.65.65 0 10-.906-.933 2.295 2.295 0 01-1.604.648A2.28 2.28 0 019.75 12.1z"
+                                    fill="currentColor"></path>
+                            </svg> 캐시충전</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li><a href="#"></a>추천</li>
+                <li><a href="#"></a>로맨스</li>
+                <li><a href="#"></a>BL</li>
+                <li><a href="#"></a>판타지/SF</li>
+                <li><a href="#"></a>액션/무협</li>
+                <li><a href="#"></a>공포/추리</li>
+                <li><a href="#"></a>드라마</li>
+                <li><a href="#"></a>GL</li>
+            </ul>
+        </div>
+    </div>
 
     <div id="slider">
         <!-- Swiper -->
@@ -57,22 +103,92 @@
             <div class="swiper-pagination"></div>
         </div>
     </div>
+    <div class="container">
+        <div class="tool">
+            <ul>
+                <li><a href="#"></a><img alt="자충 신기능"
+                        src="//active.ridibooks.com/ridibooks_banner/eb6a32d8-b894-4b44-a796-6b072337b443.png"
+                        class="fig-9hliif">자충 신기능</li>
+                <li><a href="#"></a><img alt="신작"
+                        src="https://active.ridibooks.com/quick-menu/light/new.d0c590b8b2fe4f364eadecb600491294.png"
+                        class="fig-9hliif">신작</li>
+                <li><a href="#"></a><img alt="이벤트"
+                        src="https://active.ridibooks.com/quick-menu/light/event.895183ca4353ae354bca3f5e896cec55.png"
+                        class="fig-9hliif">이벤트</li>
+                <li><a href="#"></a><img alt="리디온리"
+                        src="https://active.ridibooks.com/quick-menu/light/only.7d71bce5c941b4fcb325ffac8ae50410.png"
+                        class="fig-9hliif">리디온리</li>
+                <li><a href="#"></a><img alt="리다무"
+                        src="https://active.ridibooks.com/quick-menu/light/wait_free.177e8c3e40a896cd9a8af844d2434291.png"
+                        class="fig-9hliif">리다무</li>
+                <li><a href="#"></a><img alt="All100"
+                        src="https://active.ridibooks.com/quick-menu/light/rent_100_won.0ad27fb14b65314b7bf122a8c8727dc3.png"
+                        class="fig-9hliif">All100</li>
+                <li><a href="#"></a><img alt="이달의 신작"
+                        src="https://active.ridibooks.com/quick-menu/light/calendar.6105b633dbfdf007ad643c22b28fa966.png"
+                        class="fig-9hliif">이달의 신작</li>
+                <li><a href="#"></a><img alt="단편작"
+                        src="https://active.ridibooks.com/quick-menu/light/short_story_collection.1e4f0c75efc95d955177387bf0ffc9ca.png"
+                        class="fig-9hliif">단편작</li>
+            </ul>
+        </div>
+    </div>
 
+    <div class="section container">
+        <h2>웹툰 실시간 랭킹</h2>
+        <div class="swiper nineSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide1"></div>
+                    <div class="slide2"></div>
+                    <div class="slide3"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide1"></div>
+                    <div class="slide2"></div>
+                    <div class="slide3"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide1"></div>
+                    <div class="slide2"></div>
+                    <div class="slide3"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide1"></div>
+                    <div class="slide2"></div>
+                    <div class="slide3"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide1"></div>
+                    <div class="slide2"></div>
+                    <div class="slide3"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide1"></div>
+                    <div class="slide2"></div>
+                    <div class="slide3"></div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </div>
     <div class="new">
         <div class="swiper newSwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      <div class="swiper-slide">Slide 4</div>
-      <div class="swiper-slide">Slide 5</div>
-      <div class="swiper-slide">Slide 6</div>
-      <div class="swiper-slide">Slide 7</div>
-      <div class="swiper-slide">Slide 8</div>
-      <div class="swiper-slide">Slide 9</div>
-    </div>
-    <div class="swiper-pagination"></div>
-  </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
 
     </div>
 
@@ -99,30 +215,39 @@
     </footer>
 
     <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-        navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-       pagination: {
-        el: ".swiper-pagination",
-        clickable:true,
-      },
-    });
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
 
-    var swiper = new Swiper(".newSwiper", {
-      slidesPerView: 6,
-      spaceBetween: 10,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-  </script>
-    
+        var swiper = new Swiper(".newSwiper", {
+            slidesPerView: 6,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+        var swiper = new Swiper(".nineSwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
 </body>
+
 </html>
